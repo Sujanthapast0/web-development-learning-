@@ -1,14 +1,17 @@
 body{
 background-color: cornsilk;
+}
 
+.headder{
 
+text-align: center;
+text-shadow: 2px 4px 5px black;
 
 
 }
 
-
-
 #para {
+  box-shadow: 10px 10px 10px black;
     margin: 34px;
     padding: 34px;
     border: 2px solid black;
@@ -46,21 +49,17 @@ background-color: burlywood;
 }
 
 
-a:hover{
-    border: 2px solid black;
-    border-radius: 8px 3px 8px 3px;
-    background-color: rgba(255, 255, 255, 0.502);
-}
 
-#button:hover{
-    border: 2px solid black;
+.cont:hover{
+    
+    transform: translateY(-5px);
    
-    border-radius: 8px 3px 8px 3px;
-    background-color: rgba(255, 255, 255, 0.5);
+
 }
 
 
 .cont{
+    
 
 border-radius: 5px;
 text-decoration: none;
@@ -68,4 +67,8 @@ background-color: transparent;
 margin-top: 10px;
 padding: 5px;
 border: none;
+transition-property: transform ;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+cursor: pointer;
 }
